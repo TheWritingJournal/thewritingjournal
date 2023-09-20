@@ -17,6 +17,7 @@ p{
 .main-block{
     width: 100%;
     height: 70vh;
+    min-height: 600px;
     background-color: #6bec68;
     margin-block-end: 0;
     margin-block-start: 0;
@@ -33,7 +34,7 @@ p{
     color: #181818;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 24rem;
+    padding-top: 22rem;
     padding-bottom: 2.25rem;
     max-width: 1800px;
     margin-block-end: 0;
@@ -211,7 +212,6 @@ p{
 }
 
 .footer{
-    height: 50vh;
     padding-right: 2.25rem;
     padding-left: 2.25rem;
     margin-block-start: 1.5rem;
@@ -266,4 +266,11 @@ p{
 
 .footer h3 a{
     color: #6bec68;    
+}
+
+.separator-final{
+    height: 100px;
+    clear: both;
+    margin-block-end: 0;
+    margin-block-start: 1.5rem;
 }
